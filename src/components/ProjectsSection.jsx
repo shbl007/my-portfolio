@@ -3,34 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Thrifty Personal Leasing",
+    description: "A sleek car leasing platform built with React and Tailwind CSS.",
+    image: "/projects/thrifty.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://pl.thriftyuae.com/",
+    // githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+    title: "Second Nature",
+    description: "An animated, interactive website for a premium pet care brand in Qatar.",
+    image: "/projects/second-nature.png",
+    tags: ["Next.js", "TailwindCSS", "TypeScript"],
+    demoUrl: "http://194.233.76.88:8095/",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    title: "Gemini Building Materials",
+    description: "A modern, animated site for a building materials company.",
+    image: "/projects/gemini.png",
+    tags: ["Next.js", "TailwindCSS", "TypeScript"],
     demoUrl: "#",
     githubUrl: "#",
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
@@ -82,13 +81,13 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
+                    {/* <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/shbl007"
           >
             Check My Github <ArrowRight size={16} />
           </a>
