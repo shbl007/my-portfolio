@@ -17,7 +17,6 @@ const projects = [
     image: "/projects/second-nature.png",
     tags: ["Next.js", "TailwindCSS", "TypeScript"],
     demoUrl: "http://194.233.76.88:8095/",
-    githubUrl: "#",
   },
   {
     id: 3,
@@ -25,8 +24,7 @@ const projects = [
     description: "A modern, animated site for a building materials company.",
     image: "/projects/gemini.png",
     tags: ["Next.js", "TailwindCSS", "TypeScript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://gemini-uae-zeta.vercel.app/",
   },
 ];
 
